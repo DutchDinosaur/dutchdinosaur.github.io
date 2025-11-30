@@ -9,8 +9,16 @@ html, body {
   background-color: #61c2ba;
 }
 
+@font-face { font-family: illyfonts; src: url('FOTSFONT2.ttf'); } 
+body {
+    font-family: illyfonts;
+}
+
+input { font-family: illyfonts;color: #382919; background-color: #c9d9af; }
+textarea { font-family: illyfonts;color: #382919; background-color: #c9d9af;}
+
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   color: #3c2b1c;
   font-weight: bold;
 }
