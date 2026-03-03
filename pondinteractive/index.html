@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>POND INTERACTIVE</title>
-    <link rel="icon" type="image/vnd.microsoft.icon" href="/icon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="icon.ico">
     <link rel="stylesheet" type="text/css" href="Style.css">
 
 	<meta name="title" content="Pond Interactive">
@@ -19,23 +19,30 @@
 </head>
 <body onload="Initialize()">
 
-		<a href=""><img src="pits.png" style="height:15%; position: fixed;" ></a>
-		<div class="container">
-			<div class="square">
-			<div class="content">
-				<p style=" text-align: center; width: 100%;">indie game studio working on <a href="https://www.illy95.nl/FOTS/">For Old Time's Sake</a></p>
-				<canvas id="webglCanvas" width="512" height="512" style="width: 100%; height: 100%; image-rendering: pixelated;">
-					not supported!
-				</canvas>
+    <a href=""><img src="pits.png" style="height:15%; position: fixed;"></a>
+    <div class="intro">
+        <p style=" text-align: center; width: 100%; padding-top:70px; padding-left:90px;">indie game studio working on </br> <a href="https://www.illy95.nl/FOTS/">For Old Time's Sake</a></p>
+    </div>
 
-				<p style="bottom: 0; text-align: center;">also check out: <a href="https://www.illy95.nl/">www.illy95.nl</a></p>
-			</div>
-			</div>
-		</div>
-		
-		<script src="renderUtil.js"></script>
-        <script src="gl-matrix-min.js"></script>
-        <script src="webglRenderer.js"></script>
-		<script src="gameLogic.js"></script>
-	</body>
+    <div class="container">
+        <div class="square">
+            <div class="content">
+                <canvas id="webglCanvas" width="512" height="512" style="width: 100%; height: 100%; image-rendering: pixelated;">
+                    not supported!
+                </canvas>
+
+                <div class="bottom">
+                    <p style="bottom: 0; text-align: center; padding-top:100px;">also check out: <a href="https://www.illy95.nl/">www.illy95.nl</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="renderUtil.js"></script>
+    <script src="gl-matrix-min.js"></script>
+    <script src="webglRenderer.js"></script>
+    <script src="gameLogic.js"></script>
+</body>
 </html>
