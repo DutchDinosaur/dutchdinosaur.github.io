@@ -5,7 +5,7 @@ var viewMatrix;
 var shaders = ['shaders/vertexShader.glsl', 'shaders/fragmentShader.glsl'];
 var shaderTypes = ['vertex', 'fragment'];
 var shaderResources;
-var models = ['pond.json','archie.json'];
+var models = ['pond2.json','archie.json'];
 var modelResources;
 var textures = ['pondtex.png', 'archietex.png'];
 var textureResources;

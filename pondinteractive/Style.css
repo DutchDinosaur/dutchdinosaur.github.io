@@ -36,7 +36,7 @@ a:hover {
     text-decoration: none;
 }
 a:active {
-    color: #efc73a;
+    color: #fa8541;
     text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ a:active {
     background-image: url('branch.png');
     background-size: 100% 100%;
     position: fixed;
-    left: -10px;
+    left: -80px;
     top: 70px;
     width: 794px;
     height: 246px;
